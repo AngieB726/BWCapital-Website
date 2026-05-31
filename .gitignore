@@ -1,0 +1,14 @@
+# Design reference (not part of the live site)
+landscapecoweb.1.png
+preview.html
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
