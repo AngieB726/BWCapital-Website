@@ -268,5 +268,17 @@
     </div>
 </footer>
 
+<script>
+    (function() {
+        const header = document.querySelector('.site-header');
+        const onScroll = () => {
+            if (window.scrollY > 40) header.classList.add('scrolled');
+            else header.classList.remove('scrolled');
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+    })();
+</script>
+
 </body>
 </html>
